@@ -3,6 +3,11 @@
    background-color: #1a1a1a;
    color: #fff;
 }
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
 /*Barra de navegacion*/
 .container-topbar {
     height: 101px;
@@ -36,7 +41,7 @@
 .enlaces a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 20px;
+    
     
 }
 
