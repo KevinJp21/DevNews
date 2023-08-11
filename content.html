@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevNews2</title>
     <link rel="stylesheet" href="/styles/content.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/ab205d1cfa.js" crossorigin="anonymous"></script>
   </head>
   <body >
 
@@ -17,17 +19,6 @@
       <div class="row">
         <div class="container-topbar">
           <div class="title"><a class="display-1" href="Index.html">DevNews</a></div>
-          
-          <div class=" btn-light-mode ms-auto">
-
-            <button type="button"  class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Light Mode
-            </button>
-            <ul class="dropdown-menu">
-              <li><button id="DarkModeOn" class=" dropdown-item">Dark</button></li>
-              <li><button id="LightModeOn" class="dropdown-item">Light</button></li>
-            </ul>
-          </div>
         </div>
       </div>
 
@@ -39,6 +30,10 @@
           <div class="enlaces">
             <a class="fs-1" href="Content.html">Contenido</a>
           </div>
+        </div>
+        <div class="btn-light-mode">
+          <li><i id="DarkModeOn" class="fa-solid fa-moon fa-2xl"></i></li>
+          <li><i id="LightModeOn" class="fa-solid fa-sun fa-2xl"></i></li>
         </div>
       </div>
 

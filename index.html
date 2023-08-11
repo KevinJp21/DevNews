@@ -10,27 +10,17 @@
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/ab205d1cfa.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
     <div class="container-fluid">
       <div class="row">
+
         <div class="container-topbar">
           <div class="title"><a class="display-1" href="Index.html">DevNews</a></div>
-        
-          <div class="btn-light-mode ms-auto">
-
-            <button type="button"  class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Light Mode
-            </button>
-            <ul class="dropdown-menu">
-              <li><button id="DarkModeOn" class="dropdown-item">Dark</button></li>
-              <li><button id="LightModeOn" class="dropdown-item">Light</button></li>
-            </ul>
-          </div>
         </div>
       </div>
-
       <div class="row">
         <div class="topbar-elements">
           <div class="enlaces">
@@ -39,9 +29,15 @@
           <div class="enlaces">
             <a class="fs-1" href="Content.html">Contenido</a>
           </div>
+         
+        </div>
+        <div class="btn-light-mode">
+          <li><i id="DarkModeOn" class="fa-solid fa-moon fa-2xl"></i></li>
+          <li><i  id="LightModeOn" class="fa-solid fa-sun fa-2xl"></i></li>
         </div>
       </div>
-
+      
+      
       <div class="container-sm site-content">
         <main class="site-main">
           <header class="entry-header">
