@@ -160,5 +160,6 @@ footer{
  .btn-light-mode li{
    list-style: none;
    margin-top: 6px;
+   cursor: pointer;
  }
 
