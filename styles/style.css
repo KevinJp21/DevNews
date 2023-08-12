@@ -1,13 +1,19 @@
-/*Ubicar nien el botón de dark mdoe*/
+html {
+   box-sizing: border-box;
+     font-size: 62.5%;
+}
+
+.container-fluid {
+   min-height:100vh;
+}
+
+
 .dark-mode{
    background-color: #1a1a1a;
    color: #fff;
 }
 
-html {
-   box-sizing: border-box;
-     font-size: 62.5%;
-}
+
 /*Barra de navegacion*/
 .container-topbar {
     height: 101px;
@@ -134,24 +140,7 @@ html {
         color: #6a1ef7;
         transition: 0.4s;
     }
-
     
-footer{
-    display: flex;
-    flex-direction: column;
-    background-color: #1a1a1a;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    max-height: 50px;
-    position: absolute;
- }
- 
- .footer p{
-    color: aliceblue;
-    margin: 0;
-
- }
 
  .btn-light-mode{
    display: flex;
@@ -167,3 +156,18 @@ footer{
    cursor: pointer;
  }
 
+
+ footer{
+   display: flex;
+   flex-direction: column;
+   background-color: #1a1a1a;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   max-height: 50px;
+   width: 100%;
+}
+
+.footer p{
+   color: aliceblue;
+}
