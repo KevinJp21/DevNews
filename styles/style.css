@@ -156,11 +156,85 @@ html {
    cursor: pointer;
  }
 
+ .form-container{
+     color: #1a1a1a;
+     width: 100%;
+ }
+
+.form{
+   width: 100%;
+}
+.add-comment{
+   display:flex;
+   flex-direction: column;
+   gap: 20px;
+   height: 100%;
+}
+
+.comment-textarea{
+   width: 100%;
+}
+.comment-textarea textarea{
+   height: 200px;
+   width: 100%;
+   resize: none;
+}
+
+.comment-textarea textarea:focus{
+border-color: red;
+}
+ .add-comment input{
+   height: 100%;
+   width: 100%;
+
+ }
+
+ .add-comment input:active{
+   border-color: red;
+ }
+
+ .comentarios{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .comentarios textarea{
+   width: 100%;
+   border-color: #1ed6f7;
+ }
+
+ .comment-name{
+   height: 46px;
+ }
+
+ .comment-email{
+   height: 46px;
+ }
+
+ .comment-email input:focus{
+   border-color: red;
+ }
+
+ .submit-btn{
+   width: 30%;
+   height: 50px;
+   border: none;
+   background-color: #1ed6f7;
+   color: #1a1a1a;
+   text-decoration: none;
+   border-radius: 20px;
+   transition: all .3s ease-in-out;
+   font-weight: 600;
+ }
+
+ .submit-btn:hover{
+   background-color: #17aac4;
+ }
 
  footer{
    display: flex;
    flex-direction: column;
-   background-color: #1a1a1a;
+   background-color:black;
    justify-content: center;
    align-items: center;
    height: 50px;
